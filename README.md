@@ -13,7 +13,8 @@ This project aims to develop a phishing email detection system using machine lea
 - Google Colab
 
 ## Dataset 📊
-The dataset used in this project is a collection of emails labeled as either "legitimate" or "phishing". The dataset is pre-processed to remove unnecessary characters, and the text is vectorized using `TfidfVectorizer` to extract relevant features for classification.
+The dataset used in this project is publicly available on Kaggle. You can download it from [this link](https://www.kaggle.com/datasets/naserabdullahalam/phishing-email-dataset).
+This dataset contains collection of emails labeled as either "legitimate" or "phishing". The data has been pre-processed to remove unnecessary characters and noise. The text data is then vectorized using the TfidfVectorizer to extract meaningful features for classification.
 
 ## Project Description 📝
 
