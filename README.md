@@ -9,6 +9,7 @@ This project aims to develop a phishing email detection system using machine lea
 - Scikit-learn
 - TfidfVectorizer
 - Multinomial Naive Bayes
+- Numpy
 - Google Colab
 
 ## Dataset 📊
@@ -43,17 +44,11 @@ The dataset used in this project is a collection of emails labeled as either "le
 3. Open the .ipynb notebook in Google Colab:
    Upload the notebook file to Google Colab and run each cell interactively to see the results.
 4. Test the model by running the provided code snippets inside the notebook and check for model accuracy and predictions.
-Example test:
+- Example test:
 ```  print(predict_email("Urgent! Your account has been compromised. Click this link to secure it.")) ```
-Sample Output:
+- Sample Output:
 ``` "Phishing Email" ```
 
-
-## Requirements ✅
-Python 3.x
-Pandas
-Scikit-learn
-Numpy
 
 ## Conclusion ✅
 This phishing email detection model helps identify phishing emails with high accuracy. It demonstrates the use of machine learning for detecting security threats in emails. The project can be expanded with more advanced techniques, such as deep learning, or used with larger datasets for improved performance.
